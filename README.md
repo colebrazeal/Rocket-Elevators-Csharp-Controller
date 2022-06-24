@@ -1,5 +1,16 @@
 # Rocket-Elevators-Csharp-Controller
-This is the template to use for the C# commercial controller. In the Commercial_Controller folder, you will find the classes that should be used along with some methods described in the requirements. The necessary files to run some tests are also included, in the Commercial_Controller.Tests folder.
+
+This program controls multiple Columns of elevators.
+
+It sends an specific elevator when a user presses a button on a floor and it takes
+a user to its desired floor when a button is pressed from the inside the elevator. The specified elevator is determined on the users location and required destination and the column need for users required destination
+
+# Dependencies
+
+To be able to try the program, you need to install dotnet test
+
+- Dependency #1: "dotnet" is needed to test the elevator controller and make sure the code is operating properly to function the elevators with the controller
+
 
 ### Installation
 
@@ -19,14 +30,13 @@ With a fully completed project, you should get an output like:
 
 ![Screenshot from 2021-06-15 17-31-02](https://user-images.githubusercontent.com/28630658/122128889-3edfa500-ce03-11eb-97d0-df0cc6a79fed.png)
 
-You can also get more details about each test by adding the `-v n` flag: 
+# Usage
 
-`dotnet test -v n` 
+Used to operate elevators in a residential building for people transporting through out the building
 
-which should give something like: 
+## Example
+1. open terminal 
+2. cd to the location of the file in your terminal and make sure you are in the right location by typing "ls" 
+3. type "dotnet test" to test the elevator controller
+4. should get a result saying "all tests passed"
 
-![Screenshot from 2021-06-15 18-00-52](https://user-images.githubusercontent.com/28630658/122129140-a8f84a00-ce03-11eb-8807-33d7eab8c387.png)
-
-Make sure to only edit files in the Commercial_Controller folder. The test and scenarios files can be left in your final project. The grader will run tests similar to the ones provided.
-
-Of course, make sure to edit this Readme file to describe your own project!
